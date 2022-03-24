@@ -98,6 +98,7 @@ button:hover {
   position: absolute;
   top: 0%;
   right: 35%;
+  align-items: center;
 }
 
 .nxtcard img {
@@ -131,8 +132,8 @@ button:hover {
   font-family: "Overpass", sans-serif;
   color: rgb(191, 195, 198);
   font-size: 14px;
-  padding: 2px;
   text-align: center;
+  margin-right: 20px;
 }
 
 .close p {
