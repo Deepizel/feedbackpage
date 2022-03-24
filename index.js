@@ -13,23 +13,38 @@ btn1.addEventListener('click', () => {
     btn3.style.display = "none";
     btn4.style.display = "none";
     btn5.style.display = "none";
-    return "you've" + " " + "selected" + " " + "1 of 5"
 });
 
 btn2.addEventListener("click", () => {
-  btn2.style.background = "black";
+    btn2.style.background = "black";
+    btn1.style.background = "none";
+    btn3.style.display = "none";
+    btn4.style.display = "none";
+    btn5.style.display = "none";
 });
 
 btn3.addEventListener("click", () => {
-  btn3.style.background = "black";
+    btn3.style.background = "black";
+    btn1.style.background = "none";
+    btn2.style.display = "none";
+    btn4.style.display = "none";
+    btn5.style.display = "none";
 });
 
 btn4.addEventListener("click", () => {
-  btn4.style.background = "black";
+    btn4.style.background = "black";
+    btn1.style.background = "none";
+    btn2.style.display = "none";
+    btn3.style.display = "none";
+    btn5.style.display = "none";
 });
 
 btn5.addEventListener("click", () => {
-  btn5.style.background = "black";
+    btn5.style.background = "black";
+    btn1.style.background = "none";
+    btn2.style.display = "none";
+    btn3.style.display = "none";
+    btn4.style.display = "none";
 });
 
 button.addEventListener("click", () => {
